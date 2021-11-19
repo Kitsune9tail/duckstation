@@ -1,5 +1,5 @@
 # DuckStation - Mais conhecido como emulador de PlayStation 1
-[Últimas noticias](#Últimas-Notícias) | [Caracteristicas](#Características) | [Capturas de tela](#screenshots) | [Como baixar e configurar](#Como-baixar-e-configurar) | [Núcleo libretro](#Núcleo-libretro) | [Construindo](#Baixando) | [Avisos](#avisos)
+[Últimas noticias](#Últimas-Notícias) | [Caracteristicas](#Características) | [Capturas de tela](#screenshots) | [Como baixar e configurar](#Como-baixar-e-configurar) | [Construindo](#Baixando) | [Avisos](#avisos)
 
 **Servidor no Discord:** https://discord.gg/Buktv3t
 
@@ -164,22 +164,6 @@ Usando:
 3. Clique em um jogo para iniciar. Quando você iniciar um jogo pela primeira vez lhe será solicitado que um arquivo de BIOS seja importado.
 
 Se você tiver um controle externo, será necessário mapear os botões e eixos nas configurações.
-
-### Núcleo libretro
-
-DuckStation está disponível como núcleo libretro, ao qual pode ser carregado em um front-end tal qual o Retroarch. Ele suporta a maioria dos recursos do front-end QT, dentro das restrições e limitações de ser um núcleo libretro.
-
-O núcleo libretro não está coberto pela licença de código aberto GPL, ainda assim é totalmente grátuito.
-A única restrição é o USO E DISTRIBUIÇÃO COMERCIAL QUE É PROIBIDA. Baixanxo o núcleo libretro, você concorda que não irá distribuir ou vender junto com nenhuma aplicação paga, como applicações, serviços, ou produtos como os video-games embarcardos, raspberry pies e afins.
-
-O núcleo é mantido por terceiros e não é fornecido como parte da versão do GitHub. Você pode baixar o núcleo por meio do atualizador ou dentro do próprio Retroarch ou ainda nos links abaixo. O registro de mudanças pode ser lido em: https://www.duckstation.org/libretro/changelog.txt
-
-- Windows x64 (64-bit): https://www.duckstation.org/libretro/duckstation_libretro_windows_x64.zip
-- Android AArch64 (64-bit): https://www.duckstation.org/libretro/duckstation_libretro_android_aarch64.zip
-- Android armv7 (32-bit): https://www.duckstation.org/libretro/duckstation_libretro_android_armv7.zip
-- Linux x64 (64-bit): https://www.duckstation.org/libretro/duckstation_libretro_linux_x64.zip
-- Linux AArch64 (64-bit): https://www.duckstation.org/libretro/duckstation_libretro_linux_aarch64.zip
-- Linux armv7 (32-bit): https://www.duckstation.org/libretro/duckstation_libretro_linux_armv7.zip
 
 ### Detecção de região e imagens BIOS
 Por padrão, o DuckStation irá emular a verificação de região presente no controlador de CD-ROM do console. Isto significa que quando a versão do console não bater com a do disco, o mesmo não vai iniciar, apresentando a seguinte mensagem "Please insert PlayStation CD-ROM". DuckStation suporta detecção automática das regiões dos discos, e se você definir a região do console para detecção automática também, isso nunca será um problema.
